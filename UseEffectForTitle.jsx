@@ -31,14 +31,21 @@ import "../App.css";
 
 let UseEffectForTitle = () => {
   let [count, setCount] = useState(0);
+   
 
   useEffect(() => {
-    alert("🎉 Component is mounted");
-  }, []);
-
-  useEffect(() => {
-    document.title = `Clicked ${count} times`;
+    count === 0
+      ? alert("🎉 Component is mounted")
+      : (document.title = `Clicked ${count} times`);
   }, [count]);
+
+  // useEffect(() => {
+  //   if (count === 0) {
+  //     alert("🎉 Component is mounted");
+  //   } else {
+  //     document.title = `Clicked ${count} times`;
+  //   }
+  // }, [count]);
 
   return (
     <div className="effect-container">

@@ -1,31 +1,32 @@
 /* App.css - Styling for UseEffectForTitle */
 .effect-container {
-text-align: center;
-padding: 40px;
-border: 2px solid #ddd;
-border-radius: 12px;
-max-width: 400px;
-margin: 60px auto;
-background: #e3f2fd;
-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-}
-
-.effect-title {
-color: #2c3e50;
-margin-bottom: 20px;
-}
-
-.effect-count {
-font-size: 1.8rem;
-margin-top: 20px;
-}
-
-.effect-button {
-padding: 12px 30px;
-font-size: 1rem;
-border-radius: 10px;
-border: none;
-background-color: #64b5f6;
-color: white;
-cursor: pointer;
-}
+  text-align: center;
+  padding: 40px;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  max-width: 400px;
+  margin: 60px auto;
+  background: #e3f2fd;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .effect-title {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  }
+  
+  .effect-count {
+  font-size: 1.8rem;
+  margin-top: 20px;
+  }
+  
+  .effect-button {
+  padding: 12px 30px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #64b5f6;
+  color: white;
+  cursor: pointer;
+  }
+  
